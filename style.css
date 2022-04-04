@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: small;
+}
+.cvmain{
+    max-width: 800px;
+    max-height: 100%;
+    margin: 90px auto;
+    padding:  50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-for-header{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.name-for-header{
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    text-indent: 50px;
+}
+.headerdivide{
+    width: 100%;
+    border: 1 solid;
+}
+.work h2{
+ color: aqua;
+ font-size: 20px;
+ margin-bottom: 5px;
+}
+.otherprojects h2{
+    color: aqua;
+}
+.helpercvmain{
+    width: 102%;
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    line-height: 1.8;
+    
+}
+.left{
+    padding: 0 1px;
+    text-align: left;
+    border-right: 1px solid black;
+}
+.allleft{
+    padding: 2px,1px;
+}
+.TITEL1{
+    padding: 2px,0;
+}
+
+.right{
+    padding: 0 2px;
+    text-align: left;
+    border-right: 2px solid black;
+    
+    line-height: 1.8;
+}
+.allright{
+    padding: 2px,1px;
+}
+.education h2{
+    color: aqua;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 5px;
+}
